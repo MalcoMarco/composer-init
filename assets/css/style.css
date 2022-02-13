@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+img{
+    width:100%;
+}
+h1{
+    font-weight: 900;
+}
+h2, h3 {
+    color: #002c66;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800 !important;
+}
+b {
+color: #002c66;
+}
+.row.form-body {
+    padding: 50px 0;
+}
+
+input, select {
+    background: #002c6638;
+    border: 0;
+}
+.header-sec {
+    background: #ff9800;
+    padding: 20px 0;
+    height: 260px;
+}
+.header-sec .col-md-8 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header .col-md-8{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+label, #crb #crba label {
+    width: 176px;
+}
+input, #crb #crba input, select {
+    width: 423.5px;
+    height: 35px;
+}
+.row.form-inputs {
+    padding: 20px;
+    height: 126px;
+    align-items: center;
+    box-shadow: 0px 5px 8px #e8e8e8;
+}
+.col-sm-12.col-md-4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#crz, #cra, #crh, #cri, #crn, #cro, #crr{
+    background: #c2d6f2f2;
+}
+div#crj, #crm{
+    height: 200px;
+}
+div#crp {
+    height: 257px;
+}
+#crb, #crc, #crd, #cre, #crf, #crj, #crk, #crl, #crm, #crp, #crq {
+    background: #e7f0fbf2;
+}
+div#crb label {
+    width: 36px;
+}
+div#crb input {
+    width: 95px;
+}
+div#crh .col-sm-3, div#crk .col-sm-6 , div#crl .col-sm-6, div#crm .col-sm-6  {
+    display: flex;
+    align-items: center;
+}
+div#crh label, #crk label, #crl label, #crma label {
+    width: 102px;
+}
+#crh input, #crk input, #crl input, #crma input {
+    width: 27px;
+    height: 20px;
+}
+#crm .crmb input {
+    width: 181px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+#crm .crmb label{
+    width: 110px;
+}
+#crn {
+    height: 245px;
+}
+#crn input{
+    border-top: 0;border-left: 0;border-right: 0;border-bottom: 1px solid #969696;
+    margin: 4px 3px;
+}
+#crp input{
+    width: 357.5px;
+    height: 35px;
+}
+#crp p{
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: center;
+    font-weight:500; 
+}
+#crp .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#crp label{
+    width: 212px;
+}
+input:focus-visible {
+    outline: 0;
+}
+#crr p{
+    text-align: center;
+}
+div#btn {
+    justify-content: center;
+}
+.button-submit {
+    width: 357.5px !important;
+}
+input.btn.btn-primary {
+    width: 100%;
+    color: #ff9800;
+    background: #002c66;
+}
+
+@media only screen and (max-width: 1318px) {
+    #crp input{
+        width: 100%;
+    }
+    #crn {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 896px) {
+    input, select{
+        width: 100% !important;   
+        margin: 0 0 10px !important;
+    }
+    div#crj, #crm, div#crp, .row.form-inputs {
+        height: auto;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container, .container-sm {
+        max-width: 740px !important;
+    }
+}
+@media only screen and (max-width: 578px) {
+    .header-sec {
+        background: #ff9800;
+        padding: 20px 0;
+        height: auto;
+    }
+    .button-submit {
+        width: 100%;
+    }
+    .col-sm-12.col-md-4 {
+        display: block;
+    }
+    .col-sm-3 , div#crk .col-sm-6{
+        justify-content: flex-start;
+    }
+    div#crh input, div#crl input {
+        width: 52px !important;
+    }
+    input[type=radio] {
+        width: 52px !important;
+    }
+    
+}

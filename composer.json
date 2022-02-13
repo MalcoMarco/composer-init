@@ -1,0 +1,20 @@
+{
+    "name": "marrero/clientes",
+    "description": "formulario registro de clientes",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clientes\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "MalcoMarco",
+            "email": "minayamalco@gmail.com"
+        }
+    ],
+    "require": {}
+}
